@@ -1,0 +1,34 @@
+{
+  "name": "remember",
+  "version": "1.0.0",
+  "description": "A flashcard application that uses spaced repetition for more efficient memorization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run serve --prefix client",
+    "lint": "npm run lint --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielduyvo/remember.git"
+  },
+  "author": "Daniel Vo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielduyvo/remember/issues"
+  },
+  "homepage": "https://github.com/danielduyvo/remember#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
