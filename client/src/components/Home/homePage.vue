@@ -40,7 +40,7 @@
         </div>
         <div>
           <h3>Source Code</h3>
-          <p>Check out the code for this application <a href="https://github.com/danielduyvo/remember">here</a>! Created by Daniel Vo, based on the Leitner System. Idea inspired by Nicky Case's <a href="ncase.me/remember">comic</a> on memory.</p>
+          <p>Check out the code for this application <a href="https://github.com/danielduyvo/remember">here</a>! Created by Daniel Vo, based on the Leitner System. Idea inspired by Nicky Case's <a href="https://ncase.me/remember">comic</a> on memory.</p>
         </div>
       </div>
     </section>
