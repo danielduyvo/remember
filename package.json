@@ -9,7 +9,8 @@
     "server": "nodemon server.js",
     "client": "npm run serve --prefix client",
     "lint": "npm run lint --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "create": "npm run install && npm run install --prefix client"
   },
   "repository": {
     "type": "git",
